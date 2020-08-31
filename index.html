@@ -32,41 +32,41 @@
       </a>
       <a href="#home" class="w3-bar-item w3-button" onclick="gtag('event', 'home', {'event_category': 'menuclick'} );">HOME</a>
       <a href="#about" class="w3-bar-item w3-button w3-hide-small" onclick="gtag('event', 'about', {'event_category': 'menuclick'} );"><i class="fa fa-info"></i> ABOUT</a>
+      <a href="#news" class="w3-bar-item w3-button w3-hide-small" onclick="gtag('event', 'news', {'event_category': 'menuclick'} );"><i class="fa fa-newspaper-o"></i> NEWS</a>
       <a href="#whatson" class="w3-bar-item w3-button w3-hide-small" onclick="gtag('event', 'whatson', {'event_category': 'menuclick'} );"><i class="fa fa-calendar"></i> ACTIVITIES</a>
       <a href="#events" class="w3-bar-item w3-button w3-hide-small" onclick="gtag('event', 'events', {'event_category': 'menuclick'} );"><i class="fa fa-map"></i> EVENTS</a>
       <a href="#hire" class="w3-bar-item w3-button w3-hide-small" onclick="gtag('event', 'hire', {'event_category': 'menuclick'} );"><i class="fa fa-retweet"></i> HIRE</a>
-      <a href="#contact" class="w3-bar-item w3-button w3-hide-small" onclick="gtag('event', 'contact', {'event_category': 'menuclick'} );"><i class="fa fa-envelope"></i> CONTACT</a>
+       <a href="#contact" class="w3-bar-item w3-button w3-hide-small" onclick="gtag('event', 'contact', {'event_category': 'menuclick'} );"><i class="fa fa-envelope"></i> CONTACT</a>
     </div>
-    <div class="w3-bar w3-red " id="myNavbar">
+
+    <!-- NAV WARNING -->
+    <div class="w3-bar w3-green " id="myNavbar">
         <div class="w3-bar-item">
           <i class="fa fa-exclamation-triangle"></i> 
-          COVID-19 Statement: All Hall activities are suspended until further notice 
-          <a href="images/covid19-update.jpg"   onclick="gtag('event', 'covid19', {'event_category': 'download'} );" class="" download="covid19-update.jpg">
-            Read More
-          </a>
+          COVID-19 Update: Your local Village Hall is reopening in September.
         </div>
     </div>
 
     <!-- Navbar on small screens -->
     <div id="navDemo" class="w3-bar-block w3-white w3-hide w3-hide-large w3-hide-medium">
       <a href="#about" class="w3-bar-item w3-button" onclick="toggleFunction(); gtag('event', 'about', {'event_category': 'mobilemenuclick'} );">ABOUT</a>
+      <a href="#news" class="w3-bar-item w3-button" onclick="toggleFunction(); gtag('event', 'news', {'event_category': 'mobilemenuclick'} );">NEWS</a>
       <a href="#whatson" class="w3-bar-item w3-button" onclick="toggleFunction(); gtag('event', 'whatson', {'event_category': 'mobilemenuclick'} );">ACTIVITIES</a>
       <a href="#events" class="w3-bar-item w3-button" onclick="toggleFunction(); gtag('event', 'events', {'event_category': 'mobilemenuclick'} );">EVENTS</a>
       <a href="#hire" class="w3-bar-item w3-button" onclick="toggleFunction(); gtag('event', 'hire', {'event_category': 'mobilemenuclick'} );">HIRE</a>
       <a href="#contact" class="w3-bar-item w3-button" onclick="toggleFunction(); gtag('event', 'contact', {'event_category': 'mobilemenuclick'} );">CONTACT</a>
     </div>
+
+    <!-- Navbar on small screens -->
     <div class="w3-red  w3-bar-block w3-white w3-hide w3-hide-large w3-hide-medium" id="myNavbar">
         <div class="w3-bar-item">
           <i class="fa fa-exclamation-triangle"></i> 
-          COVID-19 Statement: All Hall activities are suspended until further notice 
-          <a href="images/covid19-update.jpg"   onclick="gtag('event', 'covid19', {'event_category': 'download'} );" class="" download="covid19-update.jpg">
-            Read More
-          </a>
+          COVID-19 Update: Your local Village Hall is reopening in September.
         </div>
     </div>
   </div>
 
-  <!-- First Parallax Image with Logo Text -->
+  <!-- Headline Banner -->
   <div class="bgimg-1 w3-display-container w3-opacity-min" id="home">
     <div class="w3-display-middle">
       <div style="white-space:nowrap;">
@@ -80,14 +80,9 @@
         <span class="w3-text-white">28 School Lane, EX2 6LB</span>
       </div>
   
-
-  <!-- <div style="margin-right:-100px; width:800px;" class="w3-padding w3-display-topright diags w3-red">
-      <span  style="margin-left:400px;" class="w3-text-white">AGM: March 6th</span>
-  </div> -->
-
   </div>
 
-  <!-- Container (About Section) -->
+  <!-- About -->
   <div class="w3-content w3-container w3-padding-64" id="about">
     <h4 class="w3-center">ABOUT</h4>
     <p class="w3-center"><em>A friendly village hall for the community run by local volunteers</em></p>
@@ -108,44 +103,76 @@
           we're able to offer great spaces available for hire.</p>
       </div>
     </div>
-    <hr />
+</div>
+
+  <!-- Banner: News -->
+  <div class="bgimg-2 w3-display-container w3-opacity-min" id="news">
+    <div class="w3-display-middle">
+      <span class="w3-xlarge w3-text-white w3-grey w3-padding-large w3-wide">NEWS</span>
+    </div>
+  </div>
+   <!-- Section: News -->
+   <div class="w3-content w3-container w3-padding-64">
     <div class="w3-row">
         <div class="w3-col w3-half w3-panel">
           <h5><i class="fa fa-newspaper-o"></i> News</h5>
-          <p>The latest village hall newsletter;</p>
-          <a href="files/CountessWearVillageHall_Newsletter_Jan2020.pdf"   onclick="gtag('event', 'newsletterJan20', {'event_category': 'download'} );" class="w3-button w3-black w3-padding-large w3-large" download="CountessWearVillageHallNewsleter_Jan2020.pdf">
-            <i class="fa fa-file-pdf-o" style="min-width:16px;text-align: center"></i> January 2020
-          </a>
-          <p>The newletter for the hall's "Grand Opening";</p>
-          <a href="files/CountessWearVillageHallNewsletter_Nov2016.pdf"   onclick="gtag('event', 'newsletterNov16', {'event_category': 'download'} );" class="w3-button w3-black w3-padding-large w3-large" download="CountessWearVillageHallNewsleter_Jan2016.pdf">
-            <i class="fa fa-file-pdf-o" style="min-width:16px;text-align: center"></i> November 2016
+          <p>The latest village hall newsletters;</p>
+
+          <a href="files/CountessWearVillageHall_Newsletter_Aug2020.pdf" style="margin:8px;min-width:180px;text-align: center" onclick="gtag('event', 'newsletterAug20', {'event_category': 'download'} );" class="w3-button w3-black w3-padding-large w3-large" download="CountessWearVillageHallNewsletter_Aug2020.pdf">
+            <i class="fa fa-file-pdf-o" style="min-width:16px;text-align: center"></i> August 2020
           </a>
           <br />
+          <a href="files/CountessWearVillageHall_Newsletter_Jan2020.pdf" style="margin:8px;min-width:180px;text-align: center" onclick="gtag('event', 'newsletterJan20', {'event_category': 'download'} );" class="w3-button w3-black w3-padding-large w3-large" download="CountessWearVillageHallNewsletter_Jan2020.pdf">
+            <i class="fa fa-file-pdf-o" style="min-width:16px;text-align: center"></i> January 2020
+          </a>
         </div>
 
         <div class="w3-col w3-half w3-panel w3-light-grey">
-            <!-- <h5><i class="fa fa-users"></i> We Need You!</h5>
-            <p>Do you live nearby to the village hall and have some spare time to give back to the community?</p>
-            <p>The village hall is looked after and run by a committee of volunteers and we're currently looking for a couple of positive, community minded people to join our team.</p>
-            <p>Please email us at <a href="mailto:countesswearvillagehall@gmail.com?subject=Volunter Enquiry"  onclick="gtag('event', 'volunteer', {'event_category': 'emailclick'} );">countesswearvillagehall@gmail.com</a> if you're interested.</p> -->
-            <h5><i class="fa fa-pagelines"></i> Now taking bookings!</h5>
-            <p>Would you like to come and try some yoga? We're currently taking bookings for a set of classes led by Howard Pike on Wednesday mornings from 10 - 11:30am. The classes concentrate on alignment of posture and correct breathing exercises - perfect for beginners or anyone looking for a more gentle form of yoga and cost just £65 for 10 classes!</p>
-            <p>Please email us at <a href="mailto:countesswearvillagehall@gmail.com?subject=Yoga Class Enquiry"  onclick="gtag('event', 'yogaclass', {'event_category': 'emailclick'} );">countesswearvillagehall@gmail.com</a> to find out more..</p> 
-            
+          <div class="w3-row">
+            <h5><i class="fa fa-handshake-o"></i> We're Hiring!</h5>
+              <p>We're currently looking for a part time, reliable cover cleaner to join our team.</p>
+              <p>Some weekend work may be included and flexibility is essential as the shift pattern will be determined by events and bookings at the hall. Please note, the hours will be minimal for this position.</p>
+              <p>If interested, please apply via email to <a href="mailto:countesswearvillagehall@gmail.com?subject=Job Enquiry"  onclick="gtag('event', 'hiring', {'event_category': 'emailclick'} );">countesswearvillagehall@gmail.com</a></p>
+          </div>
         </div>
+    </div>
+    <div class="w3-row w3-border w3-panel">
+        <h5><i class="fa fa-users"></i> Update from the committee</h5>
+          <p>Hello everyone</p>
+          <p>Firstly, and most importantly, we hope you’re all keeping safe and well. These certainly are unusual times for us all and while things have sometimes been difficult, it has been a great source of positivity to see so many communities coming closer together to offer support and help to those who may need it. We wanted to keep you in the picture and give a brief insight into what we’ve been doing since March to try and ensure that anyone within our community who may need or want help from us, knows that we’re here.</p>
+            
+             
+            <p>
+            The Village Hall Committee are; registered as volunteers with the Estuary League of Friends (ELOF) as they are the designated support hub with the council for this area, are registered with ECC and DCC community groups, have contacted our local community builder (Barbara) to offer ourselves as volunteers, have offered help on our Facebook page, have been in touch with people around the area (through friends, neighbours, informal groups, email groups, WhatsApp, Facebook etc), we’ve also posted notes through lots of doors in the area offering help.
+          </p>
+             
+            <p>
+              So far our efforts have put two volunteers in touch with a family and we have a great team of people on standby who've come forward to help anyone else in need. A huge thank you to everyone who's been in touch to offer help and to the volunteers who helped distribute notes around the area.
+          </p>
+             
+            <p>
+              In other news, due to the current measures in place, the committee have been unable to meet in person to elect new officer roles for 20/21 or to welcome the new members to the team so we have done this online instead. We've also taken this opportunity of unexpected down time to have the downstairs of the village hall building redecorated throughout to keep everything spick and span, ensuring that all social distancing guide lines are adhered to of course. We're working on possible plans for opening the hall later in the year when it's safe to do so and look forward to welcoming you all to our rescheduled events and activities.
+          </p>
+             
+            <p>
+            Take care everyone and best wishes,<br />
+            
+            The Countess Wear Village Hall Committee</p>
+          
     </div>
 </div>
 
-  <!-- Second Parallax Image with Portfolio Text -->
+  <!-- Banner: What's On -->
   <div class="bgimg-2 w3-display-container w3-opacity-min" id="whatson">
     <div class="w3-display-middle">
-      <span class="w3-xlarge w3-text-white w3-grey w3-padding-large w3-wide">WHAT'S ON</span>
+      <span class="w3-xlarge w3-text-white w3-grey w3-padding-large w3-wide">WHAT'S&nbsp;ON</span>
     </div>
   </div>
 
-  <!-- Container (ACTIVITIES Section) -->
+  <!-- Section: What's on -->
   <div class="w3-content w3-container w3-padding-64">
-    <h3 class="w3-center">REGULAR ACTIVITIES</h3>
+    <h3 class="w3-center">CURRENT REGULAR ACTIVITIES</h3>
+    <p class="w3-center">Due to the current situation, we're currently running a more limited timetable. More activities will be added here as and when they are confirmed and the timetable will begin to look a lot more like normal as things continue to get safer.</p>
     <div class="w3-row">
       <div class="w3-col l2 w3-center w3-padding-small">Monday</div>
       <div id="activities-Monday"></div>
@@ -162,19 +189,19 @@
       <div class="w3-col l2 w3-center w3-padding-small">Thursday</div>
       <div id="activities-Thursday"></div>
     </div>
-    <div class="w3-row">
+    <!-- <div class="w3-row">
       <div class="w3-col l2 w3-center w3-padding-small">Friday</div>
       <div id="activities-Friday"></div>
-    </div>
-    <div class="w3-row">
+    </div> -->
+    <!-- <div class="w3-row">
       <div class="w3-col l2 w3-center w3-padding-small">Sunday</div>
       <div id="activities-Sunday"></div>
-    </div>
-  </div>
+    </div> -->
+  
 
   </div>
 
-  <!-- Third Parallax Image with Portfolio Text -->
+  <!-- Banner: Events -->
   <div class="bgimg-3 w3-display-container w3-opacity-min" id="events">
     <div class="w3-display-middle">
       <span class="w3-xlarge w3-text-white w3-grey w3-padding-large w3-wide">EVENTS</span>
@@ -182,13 +209,13 @@
   </div>
 
 
-  <!-- Container (ACTIVITIES Section) -->
+  <!-- Section: Events -->
   <div class="w3-content w3-container w3-padding-64">
 
     <h3 class="w3-center">WHAT'S ON</h3>
 
         
-        <div class="w3-card-4 w3-margin-top">
+        <!-- <div class="w3-card-4 w3-margin-top">
             <div class="w3-quarter"><img src="images/creationstation.jpg" width="100%" alt="Avatar" class="w3-left " style="max-height:200px;"></div>
             <div class="w3-threequarter">
               <header class="w3-container">
@@ -206,7 +233,7 @@
             </div>
             <button class="w3-button w3-block w3-deep-orange">Postponed</button>
       
-          </div>
+          </div> -->
           
         <div class="w3-card-4 w3-margin-top">
             <div class="w3-quarter"><img src="images/papermill.jpg" width="100%" alt="Avatar" class="w3-left " style="max-height:200px;"></div>
@@ -222,14 +249,15 @@
                       will bring to life key aspects of this extraordinary man’s life and his impact in Countess Wear, Topsham and
                       across the world. Ticket price to include refreshments.</p>
                   </p>
-                  <div class="w3-third" style="text-decoration: line-through"><i class="fa fa-calendar" style="min-width:16px;text-align: center"></i> Friday 17th April</div>
-                  <div class="w3-third" style="text-decoration: line-through"><i class="fa fa-clock-o" style="min-width:16px;text-align: center"></i> To Be Confirmed</div>
-                  <div class="w3-third" style="text-decoration: line-through"><i class="fa fa-ticket" style="min-width:16px;text-align: center"></i>£5 per person</div>  
+                  <p>We're pleased to have rescheduled this event, please note that covid-safe measures will be in place and tickets are very limited due to social distancing. Booking is essential and can be done online here or in person at the Tally Ho! pub.</p>
+                  <div class="w3-third"><i class="fa fa-calendar" style="min-width:16px;text-align: center"></i> Friday 25th September</div>
+                  <div class="w3-third"><i class="fa fa-clock-o" style="min-width:16px;text-align: center"></i> 7.30pm</div>
+                  <div class="w3-third"><i class="fa fa-ticket" style="min-width:16px;text-align: center"></i>£5 per person</div>  
               </div>
       
             </div>
-            <button class="w3-button w3-block w3-deep-orange">Postponed</button>
-      
+            <button class="w3-button w3-block w3-dark-grey"><a href="https://www.ticketsource.co.uk/countesswearvillagehall/t-dqoaek"  onclick="gtag('event', 'robertdavy', {'event_category': 'eventdetailclick'} );">Book Here</a></button>
+            
           </div>
 
         <div class="w3-card-4 w3-margin-top">
@@ -240,21 +268,21 @@
               </header>
       
               <div class="w3-container">
-                  <p>We're excited to be hosting another craft & gift fair this Spring! Like last time, there will be a variety of local crafters here with lovely things for sale from home made, organic soaps to  ceramics, plants and textiles.</p>
-                  <p>We will also have hot drinks and cakes available to enjoy with a sit down, so even if you just want to pop in for a cuppa and a look around, everyone is welcome!
-                  </p>
-                  <div class="w3-third"><i class="fa fa-calendar" style="min-width:16px;text-align: center"></i> Saturday 2nd May</div>
+                  <p>We’ve rescheduled this fair for Autumn and as long as we can host it safely when the time comes around, then we’ll be welcoming back a variety of local crafters with lovely things for sale. From home made, organic soaps to ceramics, plants and textiles.</p>
+                  <p>If we can, we will also have hot drinks and cakes available to enjoy with a sit down, so even if you just want to pop in for a cuppa and a look around, everyone will be welcome!</p>
+                  <div class="w3-third"><i class="fa fa-calendar" style="min-width:16px;text-align: center"></i> Saturday 24th October</div>
                   <div class="w3-third"><i class="fa fa-clock-o" style="min-width:16px;text-align: center"></i>10am-3pm</div>
                   <div class="w3-third"><i class="fa fa-ticket" style="min-width:16px;text-align: center"></i>Free</div>  
               </div>
       
             </div>
             <button class="w3-button w3-block w3-dark-grey"><a href="https://www.facebook.com/events/519401018786185/"  onclick="gtag('event', 'craftfair', {'event_category': 'eventdetailclick'} );">More Details</a></button>
+            <!-- <button class="w3-button w3-block w3-deep-orange">Postponed</button> -->
       
           </div>
 
 
-        <div class="w3-card-4 w3-margin-top">
+        <!-- <div class="w3-card-4 w3-margin-top">
             <div class="w3-quarter">
               <img src="images/countesswearpapermillboard.jpeg" width="100%" alt="Avatar" class="w3-left" style="max-height:200px;"></div>
             <div class="w3-threequarter">
@@ -276,11 +304,12 @@
       
             </div>
             <button class="w3-button w3-block w3-dark-grey">Tickets Available Soon</button>
+            <button class="w3-button w3-block w3-deep-orange">Postponed</button>
       
-          </div>
+          </div> -->
   </div>
 
-  <!-- Third Parallax Image with Portfolio Text -->
+  <!-- Banner: Hire -->
   <div class="bgimg-3 w3-display-container w3-opacity-min" id="hire">
     <div class="w3-display-middle">
       <span class="w3-xlarge w3-text-white w3-grey w3-padding-large w3-wide">HIRE</span>
@@ -288,22 +317,24 @@
   </div>
 
 
-  <!-- Container (HIRE Section) -->
+  <!-- Section Hire -->
   <div class="w3-content w3-container w3-padding-64">
     <h3 class="w3-center">Hire the hall</h3>
-    <p class="w3-center">We regularly hire the hall out for celebrations, classes, courses, meetings, wakes and all
-      sorts of other events so please feel free to fill in the <a href="files/CountessWearVillageHall_BookingForm.pdf" onclick="gtag('event', 'link_bookingform', {'event_category': 'download'} );" download="CountessWearVillageHall_BookingForm.pdf">booking form</a> below or get in touch if you have any
-      enquiries, we would be happy to meet and show you around.</p>
-    <p class="w3-center">There are a number of different spaces available for hire, on the ground floor we have our main
-      hall which is our largest, bright and airy room, there are plenty of tables and chairs if needed and there is also
-      a serving hatch through to the kitchen. The kitchen is suitable for making drinks, washing up and is well stocked
-      to serve premade food from. The ground floor also has ladies, gents and disbaled toilets as well as baby changing
-      facilities and there is a lift up to the first floor.</p>
-    <p class="w3-center">Upstairs we have two cosier meeting rooms which are carpeted and have tables/chairs available
-      for use as needed. We do also have a television and projector which can be made available for use during your
-      hire, just let us know about your requirements and we'll do our best to meet them.</p>
-
-    </p>
+    <div class="w3-row-padding">
+        <p class="w3-center">We regularly hire the hall out for celebrations, classes, courses, meetings, wakes and all
+          sorts of other events so please feel free to fill in the <a href="files/CountessWearVillageHall_BookingForm.pdf" onclick="gtag('event', 'link_bookingform', {'event_category': 'download'} );" download="CountessWearVillageHall_BookingForm.pdf">booking form</a> below or get in touch if you have any
+          enquiries, we would be happy to meet and show you around.</p>
+        <p class="w3-center">There are a number of different spaces available for hire, on the ground floor we have our main
+          hall which is our largest, bright and airy room, there are plenty of tables and chairs if needed and there is also
+          a serving hatch through to the kitchen. The kitchen is suitable for making drinks, washing up and is well stocked
+          to serve premade food from. The ground floor also has ladies, gents and disbaled toilets as well as baby changing
+          facilities and there is a lift up to the first floor.</p>
+        <p class="w3-center">Upstairs we have two cosier meeting rooms which are carpeted and have tables/chairs available
+          for use as needed. We do also have a television and projector which can be made available for use during your
+          hire, just let us know about your requirements and we'll do our best to meet them.</p>
+       
+ 
+    </div>
     <!-- Grid -->
     <div class="w3-row-padding" id="events" style="height:400px">
 
@@ -345,30 +376,74 @@
 
     </div>
 
-    <div class="w3-row-padding w3-center">
-        <a href="files/CountessWearVillageHall_BookingForm.pdf"   onclick="gtag('event', 'bookingform', {'event_category': 'download'} );" class="w3-button w3-black w3-padding-large w3-large" download="CountessWearVillageHall_BookingForm.pdf">
-          <i class="fa fa-file-pdf-o" style="min-width:16px;text-align: center"></i> Booking Form
-        </a>
-        <a href="files/CountessWearVillageHall_TermsOfUse.pdf" onclick="gtag('event', 'terms', {'event_category': 'download'} );"  class="w3-button w3-black w3-padding-large w3-large" download="CountessWearVillageHall_TermsOfUse.pdf">
-          <i class="fa fa-file-pdf-o" style="min-width:16px;text-align: center"></i> Terms of Use
-        </a> 
+
+
+    <div class="w3-row">
+      <div class="w3-col w3-quarter w3-panel">
+        <div class="w3-container w3-light-grey"  style="height:300px">
+          <h5><i class="fa fa-file-text-o"></i> Forms</h5>
+          <a href="files/CountessWearVillageHall_BookingForm.pdf"   onclick="gtag('event', 'bookingform', {'event_category': 'download'} );" class="w3-button w3-black w3-padding-medium w3-medium" download="CountessWearVillageHall_BookingForm.pdf">
+            <i class="fa fa-file-pdf-o" style="min-width:16px;text-align: center"></i> Booking Form
+          </a>
+          <hr />
+          <a href="files/CountessWearVillageHall_TermsOfUse.pdf" onclick="gtag('event', 'terms', {'event_category': 'download'} );"  class="w3-button w3-black w3-padding-medium w3-medium" download="CountessWearVillageHall_TermsOfUse.pdf">
+            <i class="fa fa-file-pdf-o" style="min-width:16px;text-align: center"></i> Terms of Use
+          </a>
+        </div>
+      </div>
+      <div class="w3-col w3-threequarter w3-panel">
+       <div class="w3-container w3-light-grey"  style="height:300px">
+          <h5><i class="fa fa-star"></i> Reviews</h5>
+          <div class="mySlides w3-card-4 w3-padding-large" style="height:216px">
+            <div class="w3-container w3-hide-small"> <p>It makes for a decent music venue for up to around 100 strong audience without too demanding a  PA system. Have seen Mick Groves and the Spinners Legends perform at the venue in the past and hope to do so again.</p> </div>
+            <div class="w3-container w3-hide-medium w3-hide-large"> <p>It makes for a decent music venue for up to around 100 strong audience without too demanding a  PA system.</p> </div>
+            <footer class="w3-container"><i>Mark H, Facebook</i></footer>
+          </div>
+          <div class="mySlides w3-card-4 w3-padding-large "  style="height:216px">
+            <div class="w3-container w3-hide-small"> <p>We recently hired Countess Wear Village Hall to host after the funeral of a loved one. The facilities were immaculate, clean and new and the hall worked perfectly as a blank slate to build upon when styling. We'd like to thank those who volunteered and for being so kind and helpful especially when packing down and cleaning on behalf of the family.</p> </div>
+            <div class="w3-container w3-hide-medium w3-hide-large"> <p>The facilities were immaculate, clean and new and the hall worked perfectly as a blank slate to build upon when styling.</p> </div>
+            <div class="w3-container"> <p></p> </div>
+            <footer class="w3-container"><i>Rebecca H, Facebook</i></footer>
+          </div>
+          <div class="mySlides w3-card-4 w3-padding-large"  style="height:216px">
+            <div class="w3-container"> <p>Lovely new hall.</p> </div>
+            <footer class="w3-container"><i>Sandi S, Google</i></footer>
+          </div>
+          <div class="mySlides w3-card-4 w3-padding-large"  style="height:216px">
+            <div class="w3-container"> <p>This is a really lovely, clean space and the staff are very friendly.</p> </div>
+            <footer class="w3-container"><i>Craig G, Google</i></footer>
+          </div>
+          <div class="mySlides w3-card-4 w3-padding-large"  style="height:216px">
+            <div class="w3-container"> <p>Great facility!</p> </div>
+            <footer class="w3-container"><i>Lord A., Google</i></footer>
+          </div>
+          <div class="w3-center" style="width:100%">
+            <div class="w3-left" onclick="plusDivs(-1)">&#10094;</div>
+            <div class="w3-right" onclick="plusDivs(1)">&#10095;</div>
+            <span class="w3-badge demo w3-border" onclick="currentDiv(1)"></span>
+            <span class="w3-badge demo w3-border" onclick="currentDiv(2)"></span>
+            <span class="w3-badge demo w3-border" onclick="currentDiv(3)"></span>
+            <span class="w3-badge demo w3-border" onclick="currentDiv(4)"></span>
+            <span class="w3-badge demo w3-border" onclick="currentDiv(5)"></span>
+          </div>
+        </div>
+      </div>
     </div>
 
   </div>
 
-  <!-- Third Parallax Image with Portfolio Text -->
+  <!-- Banner: Contact -->
   <div class="bgimg-3 w3-display-container w3-opacity-min"  id="contact">
     <div class="w3-display-middle">
       <span class="w3-xlarge w3-text-white w3-grey w3-padding-large w3-wide">CONTACT</span>
     </div>
   </div>
 
-  <!-- Container (Contact Section) -->
+  <!-- Section: Contact -->
   <div class="w3-content w3-container w3-padding-64">
 
     <h3 class="w3-center">GET IN TOUCH</h3>
-    <p class="w3-center"><em>We'd love to hear from you!</em></p>
-    <div class="w3-row w3-padding-32 w3-section">
+    <div class="w3-row w3-padding-8 w3-section">
       <div class="w3-col w3-half w3-center w3-container">
         <iframe width="100%" height="250"
           src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2526.8921671646813!2d-3.5041148842594247!3d50.70338557951098!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x486da6ac1531608d%3A0xfab459a5cdfa5e90!2sCountess+Wear+Village+Hall!5e0!3m2!1sen!2suk!4v1565473803455!5m2!1sen!2suk"
@@ -390,9 +465,25 @@
       </div>
     </div>
 
+    <div class="w3-row">
+      <div class="w3-col" style="width:5%">&nbsp;</div>
+      <div class="w3-col" style="width:90%">
+        <div class="w3-row  w3-border w3-panel">
+          <h5><div class="w3-center"><i class="fa fa-institution"></i>  Trustees, Management Committee and Officers 2020-21</div></h5>
+          <div class="w3-col"><b>Trustees:</b> Alan Suter, Chris Moore, Tim Davies, Vacancy*</div>
+          <div class="w3-col w3-half"><b>Chairman:</b> Carole Raymond</div>
+          <div class="w3-col w3-half"><b>Deputy Chairman:</b> Tim Davies</div>
+          <div class="w3-col w3-half"> <b>Treasurer:</b> Sarah Brimblecombe</div>
+          <div class="w3-col w3-half"> <b>Secretary:</b> Helen Laws</div>
+          <div class="w3-col"><b>Committee Members:</b> Angela Goddard, Carole Raymond, Chris Moore, Helen Laws, Jess Startin (Administrator), Jill Weller, Jo Dew-Jones, Mitzie Slater, Sarah Brimblecombe, Tim Davies</div>  
+          <div class="w3-col"><i>*Anyone with an interest in becoming a trustee should contact the Secretary via email</i></div>  
+        </div>  
+      </div>
+      <div class="w3-col" style="width:5%">&nbsp;</div>
+      </div>
   </div>
 
-  <!-- Activity Modal-->
+  <!-- Overlay: Activity -->
   <div id="modal01" class="w3-modal" onclick="this.style.display='none'">
     <span class="w3-opacity-off w3-button w3-large w3-black w3-display-topright" title="Close Modal Image"><i
         class="fa fa-remove"></i></span>
